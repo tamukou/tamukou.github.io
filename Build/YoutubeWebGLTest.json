@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "WebGLonYoutubeTest",
+"productVersion": "0.1",
+"dataUrl": "YoutubeWebGLTest.data.unityweb",
+"wasmCodeUrl": "YoutubeWebGLTest.wasm.code.unityweb",
+"wasmFrameworkUrl": "YoutubeWebGLTest.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.17f1"
+}
