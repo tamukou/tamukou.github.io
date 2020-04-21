@@ -10,6 +10,10 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/YoutubeWebGLTest.json", {onProgress: UnityProgress});
+      window.addEventListener('message', function(event) {
+        var message = event.data;
+        unityInstance.SendMessage('MessageManager','ChangeText', message);
+      }, false);
     </script>
   </head>
   <body>
